@@ -4,8 +4,9 @@
 
 #["apple", "banana", "cherry", "kiwi", "grape"]
 
-
+def myfunc(mylist):
+    mylist.sort()
 mylist=["apple", "banana", "cherry", "kiwi", "grape"]
-print(mylist)
-mylist.sort()
-print(mylist)
+print("Before sorting:",mylist)
+myfunc(mylist)
+print("after sorting :",mylist)
